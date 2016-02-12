@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Action
+Name[ru]=Открыть в Sublime Text
+TargetLocation=true
+ToolbarLabel[ru]=Открыть в Sublime Text
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[ru]=Default profile
+Exec=subl -a %f

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Action
+Name[ru]=Открыть в терминале
+TargetLocation=true
+ToolbarLabel[ru]=Открыть в терминале
+Profiles=profile-zero;profile-1;
+
+[X-Action-Profile profile-zero]
+Name[ru]=folder
+Exec=gnome-terminal 
+Path=%f
+MimeTypes=inode/directory;
+Folders=*;
+SelectionCount==1
+
+[X-Action-Profile profile-1]
+Name[ru]=desktop
+Exec=gnome-terminal 
+Path=/home/mozgiii/Desktop
+Schemes=x-nautilus-desktop;
